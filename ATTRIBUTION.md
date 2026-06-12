@@ -1,6 +1,6 @@
 # Attribution & Third-Party Licenses
 
-This repository (`unitalk-proxy`) does not train or own any model weights. It
+This repository (`model-proxy`) does not train or own any model weights. It
 **re-hosts (proxies) third-party model artifacts** as GitHub Release assets so
 they can be downloaded reliably and programmatically, instead of from upstream
 Google Drive / external links that are rate-limited or unstable.
@@ -14,10 +14,10 @@ content (scripts, docs, packaging), **not** to the proxied artifacts.
 
 | Release | Asset | Upstream model | Source repository | Upstream license |
 |---------|-------|----------------|-------------------|------------------|
-| [`v0.0.1`](https://github.com/strivn/unitalk-proxy/releases/tag/v0.0.1) | `UniTalk_TalkNet.model` | TalkNet (audio-visual active speaker detection) | [TaoRuijie/TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) | MIT (© Ruijie Tao) |
-| [`v0.0.2`](https://github.com/strivn/unitalk-proxy/releases/tag/v0.0.2) | `dinov2small.zip` | DINOv2 ViT-S/14 | [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) | Apache-2.0 (© Meta Platforms, Inc.) |
-| [`v0.0.3`](https://github.com/strivn/unitalk-proxy/releases/tag/v0.0.3) | `dinov2-base.zip` | DINOv2 ViT-B/14 | [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) | Apache-2.0 (© Meta Platforms, Inc.) |
-| [`osnet-msmt17-v1`](https://github.com/strivn/unitalk-proxy/releases/tag/osnet-msmt17-v1) | `osnet-msmt17.zip` (6× `.pth`) | OSNet person-ReID (x0.25–x1.0, IBN, AIN), MSMT17 | [KaiyangZhou/deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid) | MIT (© Kaiyang Zhou) |
+| [`v0.0.1`](https://github.com/strivn/model-proxy/releases/tag/v0.0.1) | `UniTalk_TalkNet.model` | TalkNet (audio-visual active speaker detection) | [TaoRuijie/TalkNet-ASD](https://github.com/TaoRuijie/TalkNet-ASD) | MIT (© Ruijie Tao) |
+| [`v0.0.2`](https://github.com/strivn/model-proxy/releases/tag/v0.0.2) | `dinov2small.zip` | DINOv2 ViT-S/14 | [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) | Apache-2.0 (© Meta Platforms, Inc.) |
+| [`v0.0.3`](https://github.com/strivn/model-proxy/releases/tag/v0.0.3) | `dinov2-base.zip` | DINOv2 ViT-B/14 | [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2) | Apache-2.0 (© Meta Platforms, Inc.) |
+| [`osnet-msmt17-v1`](https://github.com/strivn/model-proxy/releases/tag/osnet-msmt17-v1) | `osnet-msmt17.zip` (6× `.pth`) | OSNet person-ReID (x0.25–x1.0, IBN, AIN), MSMT17 | [KaiyangZhou/deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid) | MIT (© Kaiyang Zhou) |
 
 ## Notes per source
 
@@ -43,7 +43,7 @@ content (scripts, docs, packaging), **not** to the proxied artifacts.
   *Learning Generalisable Omni-Scale Representations for Person
   Re-Identification* (TPAMI 2021, [arXiv:1910.06827](https://arxiv.org/abs/1910.06827), OSNet-AIN).
 - Per-file original Google Drive links are listed in the
-  [`osnet-msmt17-v1` release notes](https://github.com/strivn/unitalk-proxy/releases/tag/osnet-msmt17-v1).
+  [`osnet-msmt17-v1` release notes](https://github.com/strivn/model-proxy/releases/tag/osnet-msmt17-v1).
 
 ## Removal
 
